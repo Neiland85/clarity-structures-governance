@@ -1,109 +1,102 @@
-# Clarity Structures Governance
+# Clarity Structures Governance Framework
 
-Clarity Structures is a boutique software architecture and technical governance practice focused on complex backend systems operating in real production environments.
+## Executive Summary
 
-This repository defines the structural principles behind our work: traceability, architectural decision governance, Layer D/E separation, forensic-ready system design, and systemic risk reduction.
+Clarity Structures is a boutique software architecture and technical governance practice focused on complex backend systems operating under real production constraints.
 
----
+This repository documents the structural framework that governs our work: a separation between decision and execution, enforced traceability, architectural defensibility, and systemic risk reduction.
 
-## What This Repository Represents
+It is not a code repository.
 
-This is not a codebase.
-
-It is a governance framework.
-
-It documents how architectural decisions are formalized, justified, traceable and defensible in environments where technical errors translate into financial, operational or legal risk.
+It is a governance blueprint.
 
 ---
 
-## What We Mean by Technical Governance
+## The Structural Problem in Modern Systems
 
-Technical governance is the formal separation between:
+Most software failures do not originate from bad syntax or poor implementation.
 
-- Decision  
-- Execution  
-- Justification  
-- Traceability  
-- Risk control  
+They originate from:
 
-Architecture is not only about implementation.
+- Undocumented architectural decisions
+- Hidden technical debt
+- Lack of traceability
+- Execution without governance
+- Inability to reconstruct system behavior
+- Structural opacity under legal or financial scrutiny
 
-It is about responsibility.
-
-Every architectural decision must be:
-
-- Justified  
-- Recorded  
-- Traceable  
-- Reconstructable  
-- Defensible  
-
-Especially in regulated, investment-backed or judicial contexts.
+When systems scale, ambiguity becomes liability.
 
 ---
 
-## Where This Applies
+## The Structural Solution
 
-- High-impact production backends  
-- Distributed systems  
-- Regulated environments  
-- Investment due diligence scenarios  
-- Technical audits  
-- Judicial or forensic contexts involving digital systems  
+Clarity Structures formalizes:
 
----
+Layer D → Decision  
+Layer E → Execution  
 
-## Core Structural Concepts
+This separation ensures:
 
-- Layer D → Decision  
-- Layer E → Execution  
-- ADR registry discipline  
-- Event-driven traceability  
-- Immutable audit logging  
-- Forensic-ready architecture  
-- Technical debt as systemic risk  
-- Architecture as risk mitigation  
-
-Each document in this repository expands one of these pillars.
+- Architectural intent is explicit
+- Trade-offs are documented
+- Risk exposure is mapped
+- Execution follows defined boundaries
+- Traceability is embedded
+- Systems are reconstructable
+- Technical decisions are defensible
 
 ---
 
-## What We Do
+## Core Pillars
 
-- Architectural audits  
-- Technical due diligence  
-- Distributed systems design  
-- Governance frameworks for production platforms  
-- Forensic technical analysis of system behavior  
-- Risk-aware architectural restructuring  
+1. Architectural Decision Governance  
+2. Event-Driven Traceability  
+3. Forensic-Ready System Design  
+4. Technical Debt as Risk Model  
+5. Distributed Systems Accountability  
+6. Investment and Regulatory Alignment  
 
----
-
-## What We Do Not Do
-
-- Staff augmentation  
-- Commodity development outsourcing  
-- Framework-driven architecture  
-- Feature factories without governance  
-- Architecture without traceability  
+Each document in this repository expands these principles in detail.
 
 ---
 
-## Positioning
+## Application Domains
 
-This framework is designed for:
+This framework applies to:
 
-- CTOs in crisis  
-- Founders preparing for investment  
-- Legal teams requiring technical reconstruction  
-- Organizations facing systemic architectural debt  
-- Regulated or compliance-sensitive environments  
+- High-impact production systems
+- Distributed backend architectures
+- Regulated environments
+- Investment due diligence
+- Judicial and forensic technical analysis
+- Crisis architecture remediation
 
 ---
 
-## Structural Philosophy
+## Strategic Position
 
-Impact over activity.  
-Structure over noise.  
-Architecture as responsibility.
+Clarity Structures does not operate as:
+
+- Staff augmentation
+- Commodity development outsourcing
+- Feature factory engineering
+
+We operate where architecture has structural consequences.
+
+Where decisions must survive:
+
+- Production load
+- Investor scrutiny
+- Regulatory audit
+- Judicial evaluation
+- Time
+
+---
+
+## Foundational Principle
+
+Architecture is not code.
+
+Architecture is responsibility.
 
